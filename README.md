@@ -1,6 +1,15 @@
   
 # 📝 To-Do Application
 
+## 👥 Development Team
+- **Alaa Ehab Mohamed Elshenawy**  
+- **Esraa Mosaad Zaky Abdelrazek**
+
+## ⚙️ Operation Team
+- **Afnan Mohamed Ali Dior**  
+- **Hind Alaa Fathy Abd El Halim Ahmed**  
+- **Nancy Ahmed Mostafa Mohamed**
+  
 ## 🚀 Introduction
 This project is a simple **To-Do web app** built using **Python (Flask)** and **Docker**.  
 It allows users to **add**, **view**, and **delete** tasks through a web interface.  
