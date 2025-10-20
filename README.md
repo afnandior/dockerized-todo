@@ -23,7 +23,7 @@ The app runs inside a **Docker container**, making it easy to deploy and run any
 - Docker
 - HTML
 - GitHub
-- Json
+- Json file
 
 ---
 
