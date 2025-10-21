@@ -48,11 +48,14 @@ The application is a simple Flask web app that lets users manage a list of tasks
 
 ## 🔗 Project Links
 - **GitHub Repository:** [https://github.com/afnandior/todo-app](https://github.com/afnandior/todo-app)  
-- **Docker Hub:** [https://github.com/afnandior/todo-app](https://github.com/afnandior/todo-app)
+- **Docker Hub:** [https://hub.docker.com/r/hind7065/todo_app_image)
 
 ---
 
-## 📦 Run with Docker
+## 📦 Pull the Image from Docker Hub
 ```bash
-docker build -t todo-app .
-docker run -p 5000:5000 todo-app
+docker run -d -p 5000:5000 --name todo_app_container hind7065/todo_app_image:1.0
+
+## To run Project on your browser
+
+http://localhost:5000
