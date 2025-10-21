@@ -1,6 +1,15 @@
   
 # 📝 To-Do Application
 
+## 👥 Development Team
+- **Alaa Ehab Mohamed Elshenawy**  
+- **Esraa Mosaad Zaky Abdelrazek**
+
+## ⚙️ Operation Team
+- **Afnan Mohamed Ali Dior**  
+- **Hind Alaa Fathy Abd El Halim Ahmed**  
+- **Nancy Ahmed Mostafa Mohamed**
+  
 ## 🚀 Introduction
 This project is a simple **To-Do web app** built using **Python (Flask)** and **Docker**.  
 It allows users to **add**, **view**, and **delete** tasks through a web interface.  
@@ -14,7 +23,7 @@ The app runs inside a **Docker container**, making it easy to deploy and run any
 - Docker
 - HTML
 - GitHub
-- Json
+- Json file
 
 ---
 
@@ -29,7 +38,8 @@ The application is a simple Flask web app that lets users manage a list of tasks
 ---
 
 ## 🖼️ Project Preview
-![Todo App Screenshot](https://github.com/afnandior/todo-app/blob/main/picture.jpg?raw=true)
+![Todo App Screenshot]([https://github.com/afnandior/todo-app/blob/main/picture.jpg?raw=true](https://github.com/afnandior/todo-app/blob/main/screen1.jpeg))
+![Todo App Screenshot]([screen2.jpeg](https://github.com/afnandior/todo-app/blob/main/screen2.jpeg))
 
 
 ---
