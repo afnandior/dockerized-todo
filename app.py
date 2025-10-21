@@ -4,14 +4,13 @@ import os
 
 app = Flask(__name__)
 
-# مسار حفظ المهام
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 DATA_FILE = os.path.join(DATA_DIR, 'tasks.json')
 
 
 def load_tasks():
-    """تحميل المهام من ملف JSON"""
+  
     if os.path.exists(DATA_FILE):
         try:
             with open(DATA_FILE, 'r') as f:
@@ -22,13 +21,13 @@ def load_tasks():
 
 
 def save_tasks(tasks):
-    """حفظ المهام في ملف JSON"""
+   
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(DATA_FILE, 'w') as f:
         json.dump(tasks, f, indent=2)
 
 
-# تحميل المهام عند بدء التشغيل
+
 tasks = load_tasks()
 
 
@@ -57,7 +56,7 @@ def delete(category, task_id):
 
 @app.route('/toggle/<category>/<int:task_id>')
 def toggle(category, task_id):
-    """تبديل حالة المهمة (تم / لم تتم)"""
+    
     if category in tasks and 0 <= task_id < len(tasks[category]):
         tasks[category][task_id]["done"] = not tasks[category][task_id]["done"]
         save_tasks(tasks)
