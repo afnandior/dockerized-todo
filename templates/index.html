@@ -15,7 +15,7 @@
             <p class="subtitle">Organize your tasks by importance and urgency</p>
         </header>
 
-        <!-- ✅ نموذج الإضافة الحقيقي -->
+      
         <div class="input-section">
             <form action="/add" method="post" class="input-form">
                 <input type="text" name="task" placeholder="Enter a new task..." required>
@@ -29,7 +29,7 @@
             </form>
         </div>
 
-        <!-- ✅ عرض المهام -->
+       
         <div class="matrix">
             {% for key, title, icon in [
                 ('Q1', '🔥 Urgent & Important', 'q1'),
