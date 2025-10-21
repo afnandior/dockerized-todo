@@ -23,7 +23,7 @@ The app runs inside a **Docker container**, making it easy to deploy and run any
 - Docker
 - HTML
 - GitHub
-- Json file
+- JSON File (for storing tasks)
 
 ---
 
@@ -38,8 +38,10 @@ The application is a simple Flask web app that lets users manage a list of tasks
 ---
 
 ## 🖼️ Project Preview
-![Todo App Screenshot]([https://github.com/afnandior/todo-app/blob/main/picture.jpg?raw=true](https://github.com/afnandior/todo-app/blob/main/screen1.jpeg))
-![Todo App Screenshot]([screen2.jpeg](https://github.com/afnandior/todo-app/blob/main/screen2.jpeg))
+![Screen 2](https://raw.githubusercontent.com/afnandior/todo-app/main/screen2.jpeg)
+![Screen 1](https://raw.githubusercontent.com/afnandior/todo-app/main/screen1.jpeg)
+
+
 
 
 ---
