@@ -38,7 +38,8 @@ The application is a simple Flask web app that lets users manage a list of tasks
 ---
 
 ## 🖼️ Project Preview
-![Todo App Screenshot](https://github.com/afnandior/todo-app/blob/main/picture.jpg?raw=true)
+![Todo App Screenshot]([https://github.com/afnandior/todo-app/blob/main/picture.jpg?raw=true](https://github.com/afnandior/todo-app/blob/main/screen1.jpeg))
+![Todo App Screenshot]([screen2.jpeg](https://github.com/afnandior/todo-app/blob/main/screen2.jpeg))
 
 
 ---
